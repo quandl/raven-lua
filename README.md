@@ -9,7 +9,8 @@ to Sentry.
 
 The original library from Cloudflare has not been updated since January 2015.  There were some bugs that were caught by users, and pull requests made to fix those bugs.  Those updates were merged into this forked copy of the original repo.
 
-1. https://github.com/cloudflare/raven-lua/pull/4
+1. Fixes https connections: [PR #4](https://github.com/cloudflare/raven-lua/pull/4) by [mattrobenolt](https://github.com/mattrobenolt)
+2. Fixes invalid value `tags` for parameters: [PR #13](https://github.com/cloudflare/raven-lua/pull/13) by [ye](https://github.com/cloudflare/raven-lua/pull/13)
 
 # Synopsis
 
